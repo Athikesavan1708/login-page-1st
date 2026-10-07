@@ -1,0 +1,81 @@
+<!-- login dashboard -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h1>User Profile Dashboard</h1>
+    <div>
+
+        <!-- Login Section -->
+        <h2 class="login">Login</h2>
+
+        <label>Name:</label>
+        <input type="text" id="nameInput" placeholder="Enter your name">
+        <br>
+
+        <label>Email:</label>
+        <input type="email" id="emailInput" placeholder="Enter your email">
+
+        <br><br>
+        <button id="loginBtn">Login</button>
+
+        <p id="status">Logged Out</p>
+
+        <hr style="width: 400px;">
+
+        <p id="welcomeMessage"></p>
+
+        <!-- Input Event -->
+        <h2>Live Name Update</h2>
+
+        <input type="text" id="liveName" placeholder="Type your name">
+
+        <p id="displayName">Your name will appear here</p>
+    </div>
+    </center>
+
+
+        <!-- Form Section -->  
+
+
+    <div>
+        <form id="userForm">
+    <center>
+            <h2>User Details Form</h2>
+
+            <label>Name</label>
+            <input type="text" id="formName" placeholder="Enter name">
+            <br><br>
+
+
+            <label>Email</label>
+            <input type="email" id="formEmail" placeholder="Enter email">
+            <br><br>
+
+            <label>Age</label>
+            <input type="number" id="age" placeholder="Enter age">
+            <br><br>
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+        <p id="formMessage"></p>
+
+        <p id="eventInfo"></p>
+    </center>
+    </div>
+    
+    <script src="script.js"></script>
+
+        
+
+</body>
+</html>

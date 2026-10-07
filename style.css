@@ -1,0 +1,175 @@
+body{
+    background-color: rgb(3, 3, 3);
+    padding:30px;
+    }
+div{  
+    padding: 20px;
+    margin:0px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    border: 2px solid #00ffcc;
+    box-shadow: 0 0 15px #00ffcc,inset 0 0 10px #00ffcc;
+    border-radius: 100px;
+    box-sizing:content-box;
+}
+        
+h1{
+    color: rgb(49, 231, 231);
+    font-family: cursive;
+}
+h2{
+    color:rgb(17, 241, 241);
+    font-family: cursive;
+}
+    
+button {
+    padding: 10px 20px;
+    background-color:#061613;
+    cursor:pointer;
+    border-radius: 13px;
+    border-color:rgb(48, 243, 211);
+    font-size: 13px;
+    color: rgb(41, 230, 220);
+}
+
+button:hover{
+    color: black;
+    background-color: #00ffcc;
+    font-size:15px;      
+}
+input{
+    width: 300px;
+    margin:10px;
+    padding:10px 20px;
+    box-sizing:content-box;
+    background-color: rgb(18, 19, 19);
+    color: rgb(67, 239, 252);
+    border-radius: 10px;
+    border-bottom-style: solid;
+    border-right-color: #00ffcc;
+    display: inline;
+    border-bottom-color: rgb(20, 220, 220);                
+}
+label{
+    font-size:large;
+    color:#00ffcc;
+}
+p{
+    color:#00ffcc;
+    font-size:20px;
+}
+
+
+/* =========================
+   RESPONSIVE DESIGN
+   ========================= */
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    /* Both boxes */
+    div {
+        width: auto;
+        margin: 25px 5px;
+        padding: 20px 10px;
+        border-radius: 30px;
+        box-sizing: border-box;
+    }
+
+    /* Labels */
+    label {
+        display: block;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    /* All inputs */
+    input {
+        width: 90%;
+        max-width: 300px;
+        margin: 10px auto;
+        padding: 10px;
+        box-sizing: border-box;
+        display: block;
+    }
+
+    /* Buttons */
+    button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    /* Paragraphs */
+    p {
+        font-size: 17px;
+        word-wrap: break-word;
+    }
+
+    /* Horizontal line */
+    hr {
+        width: 90% !important;
+        max-width: 550px;
+    }
+
+    /* Form */
+    form {
+        width: 100%;
+    }
+}
+
+
+/* =========================
+   SMALL MOBILE
+   ========================= */
+
+@media (max-width: 480px) {
+
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    div {
+        margin: 20px 0;
+        padding: 15px 8px;
+        border-radius: 25px;
+    }
+
+    input {
+        width: 95%;
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 13px;
+        padding: 9px 18px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    label {
+        font-size: 15px;
+    }
+}
