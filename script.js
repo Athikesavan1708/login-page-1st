@@ -48,7 +48,7 @@ liveName.addEventListener("input", function (event) {
 
 // Email - Change Event
 
-emailInput.addEventListener("change", function (event) {
+livename.addEventListener("change", function (event) {
 
     console.log("Event Type:", event.type);
     console.log("Event Target:", event.target);
